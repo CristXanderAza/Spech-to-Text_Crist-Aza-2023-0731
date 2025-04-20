@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "spech-to-text_crist-aza-2023-0731.client", "spech-to-text_crist-aza-2023-0731.client\spech-to-text_crist-aza-2023-0731.client.esproj", "{3209E2FC-F1C5-4E64-B7F4-E3BB61FB0D83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spech-to-Text_Crist-Aza-2023-0731.Server", "Spech-to-Text_Crist-Aza-2023-0731.Server\Spech-to-Text_Crist-Aza-2023-0731.Server.csproj", "{BF8810B5-4055-4864-A832-D69B17D9AFD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3209E2FC-F1C5-4E64-B7F4-E3BB61FB0D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3209E2FC-F1C5-4E64-B7F4-E3BB61FB0D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3209E2FC-F1C5-4E64-B7F4-E3BB61FB0D83}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3209E2FC-F1C5-4E64-B7F4-E3BB61FB0D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3209E2FC-F1C5-4E64-B7F4-E3BB61FB0D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3209E2FC-F1C5-4E64-B7F4-E3BB61FB0D83}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BF8810B5-4055-4864-A832-D69B17D9AFD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF8810B5-4055-4864-A832-D69B17D9AFD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF8810B5-4055-4864-A832-D69B17D9AFD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF8810B5-4055-4864-A832-D69B17D9AFD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BE858DA-FAFA-4FAF-8976-6D4BA3D2E32E}
+	EndGlobalSection
+EndGlobal

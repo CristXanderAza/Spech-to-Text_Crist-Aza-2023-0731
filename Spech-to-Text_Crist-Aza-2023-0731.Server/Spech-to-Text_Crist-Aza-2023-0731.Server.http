@@ -1,0 +1,6 @@
+@Spech_to_Text_Crist_Aza_2023_0731.Server_HostAddress = http://localhost:5220
+
+GET {{Spech_to_Text_Crist_Aza_2023_0731.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

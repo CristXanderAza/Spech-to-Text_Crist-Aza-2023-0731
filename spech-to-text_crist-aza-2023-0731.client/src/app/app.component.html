@@ -1,0 +1,26 @@
+<main class="main">
+  <div class="profile-container">
+
+    <section class="Description">
+      <section class="TextContainer">
+        <input type="text" readonly [(ngModel)]="audioUrl" placeholder="Nombre del Archivo" class="TextBox" />
+        <input type="file" accept="audio/mpeg, audio/wav" class="Button"  (change)="onFileSelected($event)"/>
+      </section>
+      <button class="Width_Button" (click)="convertToText()">Convertir</button>
+
+      <h3>Audio Convertido a Texto</h3>
+      <textarea [value]="transcriptionText"  rows="9" readonly></textarea>
+
+      <div class="buttons">
+        <button (click)="clear()">Limpiar</button>
+        <button (click)="exit()">Salir</button>
+      </div>
+
+    </section>
+
+  </div>
+</main>
+
+
+
+<router-outlet />

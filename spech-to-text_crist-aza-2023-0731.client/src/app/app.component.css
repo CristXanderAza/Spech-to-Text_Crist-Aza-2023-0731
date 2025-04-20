@@ -1,0 +1,109 @@
+:host {
+    max-width: 1280px;
+    padding: 2rem;
+    text-align: center;
+}
+
+th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+table {
+    margin: 0 auto;
+}
+
+
+* {
+  font-family: "Century Gothic", sans-serif;
+}
+
+body {
+  padding: 20px;
+}
+
+.profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 30%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 15px;
+  border: 3px solid #007bff;
+}
+
+.skillsItems {
+  border: #83d7f6;
+  background-color: #51c4ee;
+  color: azure;
+  padding-left: 12px;
+  margin-bottom: 7px;
+  border-radius: 10px;
+}
+
+
+input[type="text"], input[type="file"], textarea, button {
+  display: inline-block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+
+button {
+  border: #83d7f6;
+  background-color: #51c4ee;
+  color: azure;
+  padding-left: 12px;
+  margin-bottom: 7px;
+  border-radius: 10px;
+  width: 100px;
+  flex: 1;
+}
+
+.Width_Button {
+  border: #83d7f6;
+  width: 100%;
+  background-color: #51c4ee;
+  color: azure;
+  padding-left: 12px;
+  margin-bottom: 7px;
+  border-radius: 10px;
+  flex: 1;
+}
+
+.TextContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.Description {
+  margin: auto;
+  border: #83d7f6 solid 5px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  width: 1000px;
+  height: 500px;
+  padding: 20px;
+}
+
+.Photo_Holder {
+  flex: 1;
+}
+
+.Info {
+  flex: 1;
+}
+
+.buttons {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
